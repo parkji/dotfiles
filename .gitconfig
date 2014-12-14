@@ -1,0 +1,23 @@
+[core]
+        excludesfile = /Users/ben/.gitignore
+        editor = vim
+ 
+[color]
+        ui = auto
+ 
+[alias]
+        l = "log --graph --decorate --oneline"
+        st = "status -sb"
+        ba = "branch -a"
+	ds = "diff --staged"
+        up = "remote update -p"
+        track = "branch --set-upstream-to"
+        co = "checkout"
+        coall = "checkout -- ."
+        p = "pull --ff-only"
+        mf = "merge --ff-only"
+	ci = commit
+
+[user]
+	name = Ben Parker
+	email = ben@mail24.co.uk
