@@ -108,3 +108,6 @@ nnoremap gb :ls<CR>:b<Space>
 
 " Git commands
 command Gco execute "! git checkout %:p"
+
+" Make JSHint work on save
+let jshint2_save = 1
