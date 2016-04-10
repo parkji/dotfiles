@@ -106,8 +106,8 @@ imap <right> <nop>
 " Make buffer navigation easier
 nnoremap gb :ls<CR>:b<Space>
 
-" Git commands
-command Gco execute "! git checkout %:p"
-
-" Make JSHint work on save
-let jshint2_save = 1
+" Make split navigation easier
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
