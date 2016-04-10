@@ -46,6 +46,8 @@ export DOCKER_HOST=tcp://192.168.59.103:2375
 alias la='ls -la'
 alias gi='grunt-init'
 alias brewup="brew update && brew upgrade && brew cleanup"
+alias ipaddr="ifconfig |grep -oE 'inet (\d{2,3}\.\d{1,3}\.\d{1,2}\.\d{2,3})' | sed 's/inet //'"
+alias ws="python -m SimpleHTTPServer"
 
 # NVM
 export NVM_DIR="/Users/ben/.nvm"
@@ -55,3 +57,18 @@ export NVM_DIR="/Users/ben/.nvm"
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 source /usr/local/bin/virtualenvwrapper.sh
+
+# MOO stuff
+# Thingy related config.
+alias thingy="/usr/bin/perl5.16 $HOME/Development/thingy/thingy.pl -c localdev"
+PERL_MB_OPT="--install_base \"/Users/ben/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/ben/perl5"; export PERL_MM_OPT;
+
+# Sync commands for sub apps.
+alias syncPixel="rsync -avz --delete $HOME/Development/pixel/_dist/. goth:~/moo/subapps/pixel/main/abc123"
+alias syncPdpBrowse="rsync -avz --delete $HOME/Development/pdpbrowse/_dist/. goth:~/moo/subapps/pdpbrowse/main/"
+alias syncFullUpload="rsync -avz --delete $HOME/Development/fullupload/_dist/. goth:~/moo/subapps/fullupload/main/"
+alias syncPackPreview="rsync -avz --delete $HOME/Development/pack-preview/_dist/. goth:~/moo/subapps/packpreview/main/"
+alias syncNfc="rsync -avz --delete $HOME/Development/nfcmanage/_dist/. goth:~/moo/subapps/nfcmanage/main/"
+
+JIRA_URL="http://jira.moo.com"
