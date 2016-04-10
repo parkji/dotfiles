@@ -1,0 +1,63 @@
+"*":
+  build: {}
+  core:
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+      ".editorconfig"
+      "*.iml"
+      ".idea"
+    ]
+    packagesWithKeymapsDisabled: [
+      "git-blame"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "tomorrow-night-eighties-syntax"
+    ]
+  "cursor-history": {}
+  deprecated:
+    tool:
+      grunt: true
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+    tabType: "soft"
+  emmet: {}
+  "exception-reporting":
+    userId: "93a28a7d-3ec5-2733-3ab3-179d8ddbbc30"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "git-blame": {}
+  "language-babel": {}
+  linter: {}
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
+  "markdown-preview":
+    breakOnSingleNewline: true
+  metrics:
+    userId: "2d8566163b25d5738116ff8c58e08b5708a94d2e"
+  minimap: {}
+  react: {}
+  "release-notes":
+    viewedVersion: "0.84.0"
+  "run-command": {}
+  tabs:
+    enableVcsColoring: true
+  "terminal-plus":
+    core: {}
+    style:
+      defaultPanelHeight: "750px"
+      theme: "pro"
+    toggles:
+      autoClose: true
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+  welcome:
+    showOnStartup: false
