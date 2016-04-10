@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="pure"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -44,7 +44,14 @@ export DOCKER_HOST=tcp://192.168.59.103:2375
 
 # Aliases
 alias la='ls -la'
-alias st='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-alias stt='st .'
 alias gi='grunt-init'
 alias brewup="brew update && brew upgrade && brew cleanup"
+
+# NVM
+export NVM_DIR="/Users/ben/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Python virual env stuffs
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source /usr/local/bin/virtualenvwrapper.sh
