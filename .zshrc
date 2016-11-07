@@ -32,15 +32,12 @@ ZSH_THEME="pure"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git brew osx composer symfony2 zsh-syntax-highlighting laravel)
+plugins=(git osx zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/opt/ruby/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin
-
-# Connect docker client to docker daemon
-export DOCKER_HOST=tcp://192.168.59.103:2375
 
 # Aliases
 alias la='ls -la'
@@ -53,10 +50,11 @@ alias ws="python -m SimpleHTTPServer"
 export NVM_DIR="/Users/ben/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-# Python virual env stuffs
+# Python and virual env stuffs
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 source /usr/local/bin/virtualenvwrapper.sh
+export PYTHONDONTWRITEBYTECODE=1
 
 # MOO stuff
 # Thingy related config.
