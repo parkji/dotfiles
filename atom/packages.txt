@@ -1,5 +1,6 @@
 atom-snazzy-syntax@0.2.0
 atom-snazzy-ui@1.1.1
+cursor-history@0.9.1
 emmet@2.4.3
 language-babel@2.55.1
 language-haskell@1.12.1

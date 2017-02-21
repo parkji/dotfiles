@@ -21,13 +21,6 @@
   'shift-cmd-X': 'platformio-ide-terminal:close'
   'cmd-`': 'platformio-ide-terminal:toggle'
 
-'atom-text-editor.vim-mode.command-mode':
-  'ctrl-i': 'cursor-history:next'
-  'ctrl-o': 'cursor-history:prev'
-
-'atom-text-editor':
-  'ctrl-shift-a': 'git-blame:toggle'
-
 'atom-workspace':
   'ctrl-i':     'cursor-history:next'
   'ctrl-o':     'cursor-history:prev'

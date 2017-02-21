@@ -12,11 +12,14 @@
     packagesWithKeymapsDisabled: [
       "git-blame"
     ]
+    telemetryConsent: "no"
     themes: [
-      "atom-dark-ui"
-      "tomorrow-night-eighties-syntax"
+      "atom-snazzy-ui"
+      "atom-snazzy-syntax"
     ]
-  "cursor-history": {}
+  "cursor-history":
+    excludeClosedBuffer: true
+    flashOnLand: true
   deprecated:
     tool:
       grunt: true
@@ -24,7 +27,6 @@
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
-    tabLength: 4
     tabType: "soft"
   emmet: {}
   "exception-reporting":
@@ -36,11 +38,15 @@
   linter: {}
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
+  "linter-flake8": {}
   "markdown-preview":
     breakOnSingleNewline: true
   metrics:
     userId: "2d8566163b25d5738116ff8c58e08b5708a94d2e"
   minimap: {}
+  "platformio-ide-terminal":
+    style:
+      theme: "solarized-dark"
   react: {}
   "release-notes":
     viewedVersion: "0.84.0"
@@ -58,6 +64,8 @@
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
   "vim-mode":
+    useClipboardAsDefaultRegister: true
+  "vim-mode-plus":
     useClipboardAsDefaultRegister: true
   welcome:
     showOnStartup: false
