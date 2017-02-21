@@ -17,9 +17,9 @@
 #   'ctrl-p': 'core:move-down'
 #
 '.platform-darwin atom-workspace':
-  'shift-cmd-T': 'terminal-plus:new'
-  'shift-cmd-X': 'terminal-plus:close'
-  'cmd-`': 'terminal-plus:toggle'
+  'shift-cmd-T': 'platformio-ide-terminal:new'
+  'shift-cmd-X': 'platformio-ide-terminal:close'
+  'cmd-`': 'platformio-ide-terminal:toggle'
 
 'atom-text-editor.vim-mode.command-mode':
   'ctrl-i': 'cursor-history:next'
