@@ -17,8 +17,6 @@
 #   'ctrl-p': 'core:move-down'
 #
 '.platform-darwin atom-workspace':
-  'shift-cmd-T': 'platformio-ide-terminal:new'
-  'shift-cmd-X': 'platformio-ide-terminal:close'
   'cmd-`': 'platformio-ide-terminal:toggle'
 
 'atom-workspace':
@@ -26,3 +24,9 @@
   'ctrl-o':     'cursor-history:prev'
   'ctrl-cmd-i': 'cursor-history:next-within-editor'
   'ctrl-cmd-o': 'cursor-history:prev-within-editor'
+
+'body':
+  'ctrl-tab': 'pane:show-next-item'
+  'ctrl-tab ^ctrl': 'unset!'
+  'ctrl-shift-tab': 'pane:show-previous-item'
+  'ctrl-shift-tab ^ctrl': 'unset!'
