@@ -8,15 +8,16 @@
 [alias]
         l = "log --graph --decorate --oneline"
         st = "status -sb"
+        b = "branch"
         ba = "branch -a"
-	ds = "diff --staged"
+        ds = "diff --staged"
         up = "remote update -p"
         track = "branch --set-upstream-to"
         co = "checkout"
         coall = "checkout -- ."
         p = "pull --ff-only"
         mf = "merge --ff-only"
-	ci = commit
+        ci = commit
 
 [user]
 	name = Ben Parker
