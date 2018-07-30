@@ -1,0 +1,15 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+\\",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "yarn-script.start"
+    }
+]

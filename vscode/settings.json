@@ -1,0 +1,33 @@
+{
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "vscode-icons",
+    "explorer.autoReveal": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.rulers": [
+        100
+    ],
+    "editor.formatOnSave": true,
+    "explorer.openEditors.visible": 0,
+    "workbench.startupEditor": "none",
+    "flow.useNPMPackagedFlow": true,
+    "javascript.validate.enable": false,
+    "python.formatting.provider": "none",
+    "python.envFile": "${workspaceFolder}/env",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "prettier.proseWrap": "never",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "window.zoomLevel": 0,
+    "editor.lineNumbers": "relative",
+    "[json]": {
+        "editor.formatOnSave": false
+    },
+    "yarn.bin": "/Users/ben/.yarn/bin/yarn",
+    "git.autofetch": true,
+    "yarn.runInTerminal": true,
+    "terminal.integrated.rendererType": "dom",
+    "files.insertFinalNewline": true
+}
