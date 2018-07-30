@@ -1,0 +1,17 @@
+andys8.jest-snippets
+christian-kohler.npm-intellisense
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
+fabianlauer.vs-code-xml-format
+flowtype.flow-for-vscode
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+gamunu.vscode-yarn
+KnisterPeter.vscode-github
+mrmlnc.vscode-scss
+ms-python.python
+OfHumanBondage.react-proptypes-intellisense
+PeterJausovec.vscode-docker
+redhat.vscode-yaml
+robertohuertasm.vscode-icons
+vscodevim.vim
