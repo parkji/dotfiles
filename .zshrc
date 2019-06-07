@@ -45,6 +45,7 @@ alias la='ls -la'
 alias brewup="brew update && brew upgrade && brew cleanup"
 alias tl="tmux list-sessions"
 alias ta="tmux attach -t"
+alias tmu="tmuxinator"
 
 # Python and virual env stuffs
 export PYTHONDONTWRITEBYTECODE=1
@@ -64,3 +65,19 @@ alias fe="functions-emulator"
 # Tmuxinator
 source /usr/local/lib/tmuxinator.zsh
 export EDITOR=vim
+
+# Tmuxinator
+source /usr/local/lib/tmuxinator.zsh
+export EDITOR=vim
+
+# Fieldmargin stuffs
+DISCOVERY_SERVICE_URL="http://localhost:1111"
+
+export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
+export JAVA_11_HOME=$(/usr/libexec/java_home -v11)
+alias java8='export JAVA_HOME=$JAVA_8_HOME'
+alias java11='export JAVA_HOME=$JAVA_11_HOME'
+# default to Java 8 for now
+java8
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
