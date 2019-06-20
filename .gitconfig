@@ -22,3 +22,6 @@
 [user]
 	name = Ben Parker
 	email = ben@mail24.co.uk
+
+[pager]
+    branch = false
